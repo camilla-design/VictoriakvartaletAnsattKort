@@ -1,7 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
+
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-export default function App() {
+export default function Logo() {
   return (
     <View style={styles.container}>
       <Image style={styles.image} source={require('./assets/Victoriakvartalet_2.jpeg')} />
@@ -26,13 +26,11 @@ const styles = StyleSheet.create({
   header: {
     position: 'absolute',
     color: 'white',
-    fontSize: 18,
-    top: 30,
+    fontSize: 25,
+    top: 100,
   },
   logo: {
     position: 'absolute',
-    top: 50,
-    width: 100,
-    height: 100,
+    top: 100,
   }
 });
