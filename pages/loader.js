@@ -1,13 +1,12 @@
-
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-export default function Logo() {
+export default function Loader() {
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={require('./assets/Victoriakvartalet_2.jpeg')} />
-      <Text style={styles.header}>Ansattkort</Text>
+      <Image style={styles.image} source={require('../assets/Victoriakvartalet_2.jpeg')} />
+      <Text style={styles.header}>Staffcard</Text>
       <Image style={styles.logo}
-      source={require('./assets/vklogo_hvit.png')}
+      source={require('../assets/vklogo_hvit.png')}
        />
     </View>
   );
@@ -25,7 +24,7 @@ const styles = StyleSheet.create({
   },
   header: {
     position: 'absolute',
-    color: 'white',
+    color: 'black',
     fontSize: 25,
     top: 100,
   },
