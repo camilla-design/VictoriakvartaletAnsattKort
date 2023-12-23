@@ -6,10 +6,10 @@ import { Icon } from '@rneui/themed';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={require('../assets/Victoriakvartalet_2.jpeg')} />
+      <Image style={styles.image} source={require('./assets/Victoriakvartalet_2.jpeg')} />
       <Text style={styles.header}>Staffcard</Text>
       <Image style={styles.logo}
-      source={require('../assets/vklogo_hvit.png')}
+      source={require('./assets/vklogo_hvit.png')}
        />
        <View style={styles.cardBackground}>
         <Text style={styles.headline}>Login</Text>
