@@ -1,6 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, } from 'react-native';
-import { Icon } from '@rneui/themed';
+
 
 
 export default function App() {
